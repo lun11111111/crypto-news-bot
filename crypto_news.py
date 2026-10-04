@@ -9,7 +9,7 @@ from pathlib import Path
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 SEEN_FILE = Path("seen.json")
-MAX_AGE_MIN = 20
+MAX_AGE_MIN = 360
 SUMMARY_WORDS = 100
 
 FEEDS = {
